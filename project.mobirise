@@ -10,7 +10,7 @@
         "secondaryColor": "#ff6666",
         "successColor": "#40b0bf",
         "infoColor": "#6592e6",
-        "warningColor": "#ffdb42",
+        "warningColor": "#ff6666",
         "dangerColor": "#ff9966",
         "mainFont": "Jost",
         "display1Font": "Jost",
