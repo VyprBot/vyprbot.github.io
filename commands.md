@@ -37,7 +37,7 @@
 
 | Command + Variables                 | Description   
 | ---------------------------------   | ---------------------------------------
-| vb 2020 // vb newyears              | Count down the time until the new year!
+| vb 2023 // vb newyears              | Count down the time until the new year!
 | vb 7tvemote `EMOTE`                 | Find an emote on 7tv by the name. <img src="https://cdn.7tv.app/emote/604e825e688b360014d83d7e/1x">
 | vb 7tvuser `NAME`                   | Lookup the profile of a user on 7TV. <img src="https://cdn.7tv.app/emote/604e825e688b360014d83d7e/1x">
 | vb 8ball `QUESTION`                 | Ask the 8ball a question. 
