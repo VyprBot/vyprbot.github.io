@@ -10,7 +10,7 @@
 
 | Prefix's                            | Description   
 | ---------------------------------   | ---------------------------------------
-| Prefix's can be set by using the command listed below. | They can be assigned to letters. The default prefix is "vb". If you would like to check the prefix of a channel, say "@vyprbot prefix?" in chat.
+| Prefix's can be set by using the command listed below. | They can be assigned to letters and any symbol. The default prefix is "vb". If you would like to check the prefix of a channel, say "@vyprbot prefix?" in chat.
 
 | Set Command                         | Description   
 | ---------------------------------   | ---------------------------------------
