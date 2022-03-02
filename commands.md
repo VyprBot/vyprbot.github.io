@@ -8,6 +8,14 @@
 | ---------------------------------   | -----------------------------------------------------------------------------------------------------------
 | What happens if I change my name?   | If you would like to have all of your data moved over to a new name, use "vb suggest" and I will get to it.
 
+| Prefix's                            | Description   
+| ---------------------------------   | ---------------------------------------
+| Prefix's can be set by using the command listed below. | They can be assigned to letters. The default prefix is "vb". If you would like to check the prefix of a channel, say "@vyprbot prefix?" in chat.
+
+| Set Command                         | Description   
+| ---------------------------------   | ---------------------------------------
+| vb set `birthday, bday, twitter, location, prefix`| Set various values to use commands. Options: Location, Prefix, Twitter account or Birthday. Examples: "vb set prefix %" "vb set twitter darkvyprr", "vb set birthday 8/14/2005 (mm/dd/yyyy)" or "vb set location lasalle ontario ({city} {state, province or country})".
+
 | Loyalty Commands                    | Description   
 | ---------------------------------   | ---------------------------------------
 | vb hunt                             | Hunt nammers! If you have never used this command, upon typing it, you will be auto-registered and you will be able to use the "`vb hunt`" command once again. After using "`vb hunt`", you will need to wait 1 hour before calling the command again.
@@ -16,14 +24,6 @@
 | vb nammers `OPTIONAL: USER`         | Check your current balance of nammers. This supports checking users, Example: "`vb nammers VisioisiV`". Leave blank to check your own balance.
 | vb gamble `AMOUNT`                  | Have a 50/50 shot at winning the amount of points you bet. Example: "`vb gamble 300`". This would give you 300 nammers if you win, but if you lose, you lose 300 nammers. You can also do "`vb gamble all`" to gamble all of your nammers.
 | vb shop                             | Get a list of all of the purchasable items.
-
-| Prefix's                            | Description   
-| ---------------------------------   | ---------------------------------------
-| Prefix's can be set by using the command listed below. | They can be assigned to letters. The default prefix is "vb". If you would like to check the prefix of a channel, say "@vyprbot prefix?" in chat.
-
-| Set Command                         | Description   
-| ---------------------------------   | ---------------------------------------
-| vb set `birthday, bday, twitter, location, prefix`| Set various values to use commands. Options: Location, Prefix, Twitter account or Birthday. Examples: "vb set prefix %" "vb set twitter darkvyprr", "vb set birthday 8/14/2005 (mm/dd/yyyy)" or "vb set location lasalle ontario ({city} {state, province or country})".
 
 | Suggestions                         | Description   
 | ---------------------------------   | ---------------------------------------
