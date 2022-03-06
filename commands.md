@@ -44,6 +44,7 @@
 | vb acctage // vb accountage `OPTIONAL: USER` | Get info on when an account was made. Check a user by assing their name to the end of the command. Examples: "`vb acctage`" "`vb accountage @XenoPlopQB`".
 | vb adblock                          | Some adblockers that I had saved.
 | vb alogs `USER` `CHANNEL`           | Get the logs of a user on any channel that is supported by [Apulxd Logs](https://logs.apulxd.ga/).
+| vb ban `SINGLE_OR_MULTIPLE_USERS`   | Ban a single user, or a space separated list of users. See "vb unban" for vice-versa.
 | vb birthday // vb bday              | Get your current age, your date of birth, the time until your next bday and how old you'll be on that day. Birthdays must be set with the vb setbirthday command.
 | vb bot `USER`                       | Check whether the specified user is a bot or not. Example: "`vb bot vyprbot`".
 | vb botlist                          | A list of bots that I made during the Hoss and IP grabber raids.
@@ -107,6 +108,7 @@
 | vb trump                            | Get a random Donald Trump quote including the time and year.
 | vb twitter `OPTIONAL: @USER_OR_ACCOUNT`| Get the latest Tweet off of an account. Leave blank to check your Twitter account, add a @ and a user to check someone else's Twitter if they have it set, and check any account by leaving out the @. Examples: `vb twitter`, `vb twitter @visioisiv` checks the user VisioisiV's twitter if they have it set on VyprBot, and `vb twitter xqc` would check xQcOW's Twitter account.
 | vb uid `OPTIONAL: USER`             | Get the UserID of a Twitch account. Will show if the user is banned or not.
+| vb unban `SINGLE_OR_MULTIPLE_USERS` | Unban a single user, or a space separated list of users. See "vb ban" for vice-versa.
 | vb urban `PHRASE`                   | Use Urban Dictionary to look up the meaning of a word. Example: "`vb urban lmfao`". There is some square brackets in the response, juts act as if they didn't exist. It's just a werid formatting bug.
 | vb vanish                           | Disappear and never come back. <img src="https://cdn.7tv.app/emote/6040aa41cf6746000db1034e/1x">
 | vb weather `@USER_OR_LOCATION`      | This will get the weather for the location you previously set. If you would like to check someone else's weather, you can use "`vb weather @USER`". Make sure to **INCLUDE THE @ SIGN!!!!!** Example: "`vb weather @VisioisiV`". If you would like to check the weather for a specific location, you can use "`vb weather LOCATION_NAME`". Example: "`vb weather paris france`". Leave this blank to check your location.
