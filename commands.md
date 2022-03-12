@@ -45,7 +45,7 @@
 | vb adblock                          | Some adblockers that I had saved.
 | vb alogs `USER` `CHANNEL`           | Get the logs of a user on any channel that is supported by [Apulxd Logs](https://logs.apulxd.ga/).
 | vb ban `SINGLE_OR_MULTIPLE_USERS`   | Ban a single user, or a space separated list of users. See "vb unban" for vice-versa.
-| vb bday                             | Get your current age, your date of birth, the time until your next bday and how old you'll be on that day. Birthdays must be set with the vb setbirthday command.
+| vb bday // vb birthday              | Get your current age, your date of birth, the time until your next bday and how old you'll be on that day. Birthdays must be set with the vb set birthday command.
 | vb bot `USER`                       | Check whether the specified user is a bot or not. Example: "`vb bot vyprbot`".
 | vb botlist                          | A list of bots that I made during the Hoss and IP grabber raids.
 | vb bttvemote `EMOTE`                | Lookup a list of emotes on BTTV with a specific name. <img src="https://cdn.betterttv.net/emote/54fab7d2633595ca4c713abf/1x">
