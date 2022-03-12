@@ -55,6 +55,7 @@
 | vb channels                         | List the channels that [@VyprBot](https://www.twitch.tv/VyprBot) is in and how to get the bot in your channel!
 | vb christmas                        | States the number of months, days and minutes left until Christmas. <img src="https://cdn.betterttv.net/emote/5f91c1486f583802e38974aa/3x" width="28" height="28">
 | **vb clear `AMOUNT`**               | Clear the chat x number of times. Example: "`vb clear 20`". The max is 100.
+| vb code `COMMAND`                   | View the code for any one of these commands!
 | vb commands                         | Brings you here. <img src="https://cdn.7tv.app/emote/60af60df84a2b8e6554d9af7/4x" width="28" height="28">
 | vb coin                             | Flip a coin. Returns either: `Heads! (Yes)` or `Tails! (No)`.
 | vb code `COMMAND`                   | View the source code for any command. Example: "`vb code weather`".
