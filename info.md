@@ -18,4 +18,4 @@ I originally made this bot to replace some of the Fossabot commands that I had, 
 
 Well it's mainly meant for my chat but I'm also accepting requests for the bot to be added to others.
 
-Just send me a asking for the bot to be added. Make sure to read [the commands page](https://darkvypr.com/commands) before asking. I won't be removing any of them for you. Also the prefix is "!", at the moment, it cannot be changed.
+Just send me a asking for the bot to be added. Make sure to read [the commands page](https://darkvypr.com/commands) before asking. I won't be removing any of them for you. Also the prefix is "vb", change it with "vb set prefix {your prefix here}".
