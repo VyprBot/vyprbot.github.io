@@ -101,7 +101,7 @@
 | vb translate `OPTIONAL: FROM:LANG AND/OR TO:LANG`| Translate text from language to language. Example: "`vb translate Come stai? from:italian to:french`"
 | vb trump                            | Get a random Donald Trump quote including the time and year.
 | vb twitter `OPTIONAL: @USER_OR_ACCOUNT`| Get the latest Tweet off of an account. Leave blank to check your Twitter account, add a @ and a user to check someone else's Twitter if they have it set, and check any account by leaving out the @. Examples: `vb twitter`, `vb twitter @visioisiv` checks the user VisioisiV's twitter if they have it set on VyprBot, and `vb twitter xqc` would check xQcOW's Twitter account.
-| vb uid `OPTIONAL: USER`             | Get the UserID of a Twitch account. Will show if the user is banned or not.
+| vb uid `OPTIONAL: USER AND uid:{true|false}`| Get the UserID of a Twitch account. Will show if the user is banned or not. This will show if a user is banned, and the reason for their ban. To reverse lookup an ID, append: "uid:true" to the message. Examples: "`vb uid darkvypr`" or "`vb uid 275711366 uid:true`"
 | vb unban `SINGLE_OR_MULTIPLE_USERS` | Unban a single user, or a space separated list of users. See "vb ban" for vice-versa.
 | vb urban `PHRASE`                   | Use Urban Dictionary to look up the meaning of a word. Example: "`vb urban lmfao`". Use index:{number} to scroll through the results.
 | vb vanish                           | Disappear and never come back. <img src="https://cdn.7tv.app/emote/6040aa41cf6746000db1034e/1x">
