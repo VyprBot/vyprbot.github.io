@@ -87,7 +87,6 @@
 | vb ping                             | Get the latency, uptime, commands used, prefix and other info about the bot! <img src="https://cdn.7tv.app/emote/60537cea9d9e96000d244f19/1x">
 | vb pings                            | A list of [@DarkVypr](https://www.twitch.tv/darkvypr)'s pings. <img src="https://cdn.7tv.app/emote/60afdf8dd2e19045eed5b8b3/1x">
 | vb qr // vb qrcode                  | Read or create a QR code. Examples: "`vb qr create hello this is a test`" "`vb qrcode read https://i.darkvypr.com/qrcode.png`".
-| vb query `QUESTION`                 | Use the power of Wolfram Alpha's API to answer a question. Example: "`vb query population of canada`".
 | vb rpfp `OPTIONAL: user:true`       | Get a random user's profile picture from chat. Use the flag: "user:true" to include the user that the profile picture is from.
 | vb say                              | Repeat what the user sent. Example Input: `DarkVypr: vb say hello my name is darkvypr` Example Response: `VyprBot: 👥 hello my name is darkvypr`
 | vb shiba // vb shibe                | Get a random picture of a Shibe.
@@ -108,4 +107,5 @@
 | vb weather `@USER_OR_LOCATION`      | This will get the weather for the location you previously set. If you would like to check someone else's weather, you can use "`vb weather @USER`". Make sure to **INCLUDE THE @ SIGN!!!!!** Example: "`vb weather @VisioisiV`". If you would like to check the weather for a specific location, you can use "`vb weather LOCATION_NAME`". Example: "`vb weather paris france`". Leave this blank to check your location.
 | vb weit `EMOTE_ID OR EMOTE_NAME`    | Get info on a Twitch emote. If the emote's name does not work, right click on the emote, [go here](https://i.imgur.com/8nmb4at.png), click "3x link", then copy [this part](https://i.imgur.com/mIy2UDz.png) OR depending on the emote, [this part of the URL](https://i.imgur.com/YnMB49I.png) that opens. Now use that string instead of the emotes name. For example, [these](https://i.imgur.com/AflenIQ.png) have the same result because one of them uses the ID from the URL, but it also happens to be a emote that works with just the name. Not all emotes work with just the name, which is why you would use the URL method.
 | vb wiki                             | Search Wikipedia for relavant articles, and get a summary.
+| vb wolfram `QUESTION`               | Use the power of Wolfram Alpha's API to answer a question. Example: "`vb query population of canada`".
 | vb wyr                              | Get a random question from the Would You Rather API.
