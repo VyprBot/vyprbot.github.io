@@ -82,7 +82,7 @@
 | vb modlookup `USER`                 | View a rough list of people that a user mods for. (Not 100% accurate)
 | vb ocr `DIRECT_LINK_TO_IMAGE` `LANG_CODE`| Get the text out of an image. To specify a language, use lang:{lang_name}
 | vb part                             | If you would like VyprBot to leave your chat, use this command. <img src="https://cdn.7tv.app/emote/61a0f0cfe9684edbbc36e976/1x">
-| vb pfp `USER`                       | Get a direct link to the profile picture of any user. Example: "`vb pfp darkvypr`".
+| vb pfp `USER`                       | Get a direct link to the profile picture of any user. Example: "`vb pfp darkvypr`". To reverse lookup a PFP with a UID, append: "uid:true" to the message. Examples: "`vb pfp darkvypr`" or "`vb pfp 275711366 uid:true`"
 | vb pick `ITEMS`                     | Pick a random elemetnt from a space separated list. Must provide at least 2 things to pick from. Example: "`vb pick test test2`" would return a 50/50 chance of either "test" "test2". You can specify more than 2 arguments.
 | vb ping                             | Get the latency, uptime, commands used, prefix and other info about the bot! <img src="https://cdn.7tv.app/emote/60537cea9d9e96000d244f19/1x">
 | vb pings                            | A list of [@DarkVypr](https://www.twitch.tv/darkvypr)'s pings. <img src="https://cdn.7tv.app/emote/60afdf8dd2e19045eed5b8b3/1x">
@@ -101,7 +101,7 @@
 | vb translate `OPTIONAL: FROM:LANG AND/OR TO:LANG`| Translate text from language to language. Example: "`vb translate Come stai? from:italian to:french`"
 | vb trump                            | Get a random Donald Trump quote including the time and year.
 | vb twitter `OPTIONAL: @USER_OR_ACCOUNT`| Get the latest Tweet off of an account. Leave blank to check your Twitter account, add a @ and a user to check someone else's Twitter if they have it set, and check any account by leaving out the @. Examples: `vb twitter`, `vb twitter @visioisiv` checks the user VisioisiV's twitter if they have it set on VyprBot, and `vb twitter xqc` would check xQcOW's Twitter account.
-| vb uid `OPTIONAL: USER AND uid:{true|false}`| Get the UserID of a Twitch account. Will show if the user is banned or not. This will show if a user is banned, and the reason for their ban. To reverse lookup an ID, append: "uid:true" to the message. Examples: "`vb uid darkvypr`" or "`vb uid 275711366 uid:true`"
+| vb uid `OPTIONAL: USER AND uid:{true|false}`| Get the UserID of a Twitch account. This will show if a user is banned, and the reason for their ban. To reverse lookup an ID, append: "uid:true" to the message. Examples: "`vb uid darkvypr`" or "`vb uid 275711366 uid:true`"
 | vb unban `SINGLE_OR_MULTIPLE_USERS` | Unban a single user, or a space separated list of users. See "vb ban" for vice-versa.
 | vb urban `PHRASE`                   | Use Urban Dictionary to look up the meaning of a word. Example: "`vb urban lmfao`". Use index:{number} to scroll through the results.
 | vb vanish                           | Disappear and never come back. <img src="https://cdn.7tv.app/emote/6040aa41cf6746000db1034e/1x">
