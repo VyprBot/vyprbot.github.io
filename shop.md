@@ -2,7 +2,7 @@
 
 <h3 align="center"><img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/repeat-button_1f501.png" width="22" height="22"> Cooldown Reset | vb cdr <img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/repeat-button_1f501.png" width="22" height="22"></h3>
 
-<p align="center">--- This costs you 20 nammers and allows you to hunt once again. Cooldown: 2 hours in between resets. ---</p>
+<p align="center">--- This costs you 10 nammers and allows you to hunt once again. Cooldown: 2 hours in between resets. ---</p>
 
 ---
 
