@@ -21,6 +21,7 @@
 | vb hunt                             | Hunt nammers! If you have never used this command, upon typing it, you will be auto-registered and you will be able to use the "`vb hunt`" command once again. After using "`vb hunt`", you will need to wait 1 hour before calling the command again.
 | vb kill `NUMBER`                    | Kill a specific number of nammers. Example: "`vb kill 20`" would remove 20 nammers from your balance.
 | vb give `USER` `NUMBER`             | Give a specific amount of nammers to another user. Example: "`vb give VisioisiV 20`".
+| vb cdr                              | Reset your nammer hunting cooldown. This costs 10 nammers, and you can use this once per 2 hours.
 | vb nammers `OPTIONAL: USER`         | Check your current balance of nammers. This supports checking users, Example: "`vb nammers VisioisiV`". Leave blank to check your own balance.
 | vb gamble `AMOUNT`                  | Have a 50/50 shot at winning the amount of points you bet. Example: "`vb gamble 300`". This would give you 300 nammers if you win, but if you lose, you lose 300 nammers. You can also do "`vb gamble all`" to gamble all of your nammers.
 | vb shop                             | Get a list of all of the purchasable items.
