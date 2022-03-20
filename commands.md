@@ -111,4 +111,4 @@
 | vb weit `EMOTE_ID, EMOTE_NAME, EMOTE_URL`| This command gets the data for any Twitch emote. If the emote's name doesn't work, right-click on the emote, and click "3x link" under the copy drop down. <br> <img src="https://i.darkvypr.com/emote-url.png" width="165" height="69"> <br> Use the link as the emote's name instead. Example: "`vb weit dansgame`" or "`vb weit https://static-cdn.jtvnw.net/emoticons/v2/33/default/dark/3.0`".
 | vb wiki                             | Search Wikipedia for relavant articles, and get a summary.
 | vb wolfram `QUESTION`               | Use the power of Wolfram Alpha's API to answer a question. Example: "`vb query population of canada`".
-| vb wyr                              | Get a random question from the Would You Rather API.
+| vb wyr                              | Get a random Would You Rather question.
