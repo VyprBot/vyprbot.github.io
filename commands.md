@@ -98,6 +98,7 @@
 | vb subage // vb sa `USER` `CHANNEL` | Check a user's subscription status to a channel.
 | vb text  `to|from:{method}` `{text}`| Manipulate text. Use `"to:base64, b64, binary, bin, weeb, space, condensed, upper, lower, capitalize, capital, shuffle"` or `"from:base64, b64, binary, bin"`. Example: "`vb text from:binary 1101000 1100101 1101100 1101100 1101111 100000 1110111 1101111 1110010 1101100 1100100 `" or "`vb text to:base64 hello world`".
 | vb time `@USER_OR_LOCATION`         | This will get the time for the location you previously set. If you would like to check someone else's time, you can use "`vb time @USER`". Make sure to **INCLUDE THE @ SIGN!!!!!** Example: "`vb time @VisioisiV`". If you would like to check the time for a specific location, you can use "`vb time LOCATION_NAME`". Example: "`vb time paris france`". Leave this blank to check your location.
+| vb title `OPTIONAL: USER`           | Get the title for any Twitch account. Add a user to the command to target a channel.
 | vb topgames `OPTIONAL: top:{number}`| This command lists the top games on Twitch. Use `top:{number}` to specify a custom amount. Examples: "`vb topgames`" or "`vb topgames top:5`".
 | vb topstreams // vb top `OPTIONAL: top:{number}`| This command lists the top streams on Twitch. Use `top:{number}` to specify a custom amount. Examples: "`vb top`" or "`vb top top:5`".
 | vb translate `OPTIONAL: FROM:LANG AND/OR TO:LANG`| Translate text from language to language. Example: "`vb translate Come stai? from:italian to:french`"
