@@ -71,13 +71,13 @@
 | vb followers `USER`                 | Get a list of who is following a specific user on Twitch.
 | vb following `USER`                 | Get a list of who a specific user is following on Twitch.
 | vb firstlog `USER` `CHANNEL`        | Use [Leppunen's Logs](https://logs.ivr.fi/) to get the first message of any user in any channel as long as the channel is logged.
-| vb fuck `USER`                      | Fuck any user you wish <img src="https://cdn.7tv.app/emote/60538d319d9e96000d244f8c/1x">
-| vb gnkiss `USER` `MESSAGE`          | Kiss someone goodnight. <img src="https://cdn.7tv.app/emote/60a1babb3c3362f9a4b8b33a/1x">
+| vb fuck `USER` `OPTIONAL: MESSAGE`  | Fuck any user you wish, a random BTTV/7TV/FFZ emote from your channel will be used if no message is provided. <img src="https://cdn.7tv.app/emote/60538d319d9e96000d244f8c/1x">
+| vb gnkiss `USER` `OPTIONAL: MESSAGE`| Kiss someone goodnight. A random BTTV/7TV/FFZ emote from your channel will be used if no message is provided. <img src="https://cdn.7tv.app/emote/60a1babb3c3362f9a4b8b33a/1x">
 | vb hare                             | An old command for the location of hare in Far Cry 5. <img src="https://cdn.7tv.app/emote/610725797c9d47b53ef7d244/1x">
 | vb hug `USER`                       | Give a user a hug! <img src="https://cdn.7tv.app/emote/60b3ee1eb0e6e2b3a5f9577a/1x">
 | vb info `OPTIONAL: USER OR UID`     | Look up and get the details of any user on Twitch. Leave blank for your account's details. Use id:true to lookup UID's.
 | vb kanye                            | Get a random quote from Mr. West. <img src="https://cdn.7tv.app/emote/6116f94cd281ac4021e0a4ac/1x">
-| vb kiss `USER`                      | Kiss a user. <img src="https://cdn.7tv.app/emote/60fa7cfb4c5d42dbbc6d9eb1/1x">
+| vb kiss `USER` `OPTIONAL: MESSAGE`  | Kiss a user. A random BTTV/7TV/FFZ emote from your channel will be used if no message is provided. <img src="https://cdn.7tv.app/emote/60fa7cfb4c5d42dbbc6d9eb1/1x">
 | vb logs `USER` `CHANNEL`            | Get the logs of a user on any channel that is supported by [Leppunen's Logs](https://logs.ivr.fi/).
 | vb math `EQUATION`                  | Get the answer to a provided equation.
 | vb modlookup `USER`                 | View a rough list of people that a user mods for. (Not 100% accurate)
@@ -103,6 +103,7 @@
 | vb topstreams // vb top `OPTIONAL: top:{number}`| This command lists the top streams on Twitch. Use `top:{number}` to specify a custom amount. Examples: "`vb top`" or "`vb top top:5`".
 | vb translate `OPTIONAL: FROM:LANG AND/OR TO:LANG`| Translate text from language to language. Example: "`vb translate Come stai? from:italian to:french`"
 | vb trump                            | Get a random Donald Trump quote including the time and year.
+| vb tuck `USER` `OPTIONAL: MESSAGE`  | Tuck a user, if no message is provided, a random BTTV/7TV/FFZ emote from your channel will be used.
 | vb twitter `OPTIONAL: @USER_OR_ACCOUNT`| Get the latest Tweet off of an account. Leave blank to check your Twitter account, add a @ and a user to check someone else's Twitter if they have it set, and check any account by leaving out the @. Examples: `vb twitter`, `vb twitter @visioisiv` checks the user VisioisiV's twitter if they have it set on VyprBot, and `vb twitter xqc` would check xQcOW's Twitter account.
 | vb uid `OPTIONAL: USER AND uid:{true|false}`| Get the UserID of a Twitch account. This will show if a user is banned, and the reason for their ban. To reverse lookup an ID, append: "uid:true" to the message. Examples: "`vb uid darkvypr`" or "`vb uid 275711366 uid:true`"
 | vb unban `SINGLE_OR_MULTIPLE_USERS` | Unban a single user, or a space separated list of users. See "vb ban" for vice-versa.
