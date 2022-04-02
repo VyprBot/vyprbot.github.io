@@ -61,7 +61,7 @@
 | vb coin                             | Flip a coin. Returns either: `Heads! (Yes)` or `Tails! (No)`.
 | vb code `COMMAND`                   | View the source code for any command. Example: "`vb code weather`".
 | vb covid `@USER_OR_LOCATION`        | This will get the COVID stats for the location you previously set. If you would like to check someone else's COVID stats, you can use "`vb covid @USER`". Make sure to **INCLUDE THE @ SIGN!!!!!** Example: "`vb covid @VisioisiV`". If you would like to check the COVID stats for a specific location, you can use "`vb covid LOCATION_NAME`". Example: "`vb covid paris france`". Leave this blank to check your location.
-| vb define `WORD_OR_PHRASE`          | Get the meaning of a word or sentence. Examples: "`vb define hello`" or "`vb define how are you`".
+| vb define `WORD_OR_PHRASE`          | Get the meaning of a word or sentence. Searches Wikipedia, The English Dictionary (Words API) and Urban Dictionary. Indexes are supported.
 | vb domain `DOMAIN`                  | Lookup info on a specific domain using the WHOIS database. Please only use this command if you know what it's for, I only get 500 API calls a month.
 | vb emotes `USER`                    | List all of the emotes, badges and assets for the specified channel.
 | vb farmer                           | Get a link to the Twitch Channel Points Farmer V2. Also can be used to farm gift subs. (This may or may not work anymore, Twitch may have broken this one <img src="https://cdn.frankerfacez.com/emoticon/425196/4" width="28" height="22">)
