@@ -72,6 +72,7 @@
 | vb following `USER`                 | Get a list of who a specific user is following on Twitch.
 | vb firstlog `USER` `CHANNEL`        | Use [Leppunen's Logs](https://logs.ivr.fi/) to get the first message of any user in any channel as long as the channel is logged.
 | vb fuck `USER` `OPTIONAL: MESSAGE`  | Fuck any user you wish, a random BTTV/7TV/FFZ emote from your channel will be used if no message is provided. <img src="https://cdn.7tv.app/emote/60538d319d9e96000d244f8c/1x">
+| vb game `OPTIONAL: CHANNEL`         | Get the game that a streamer is playing and if available, send a Steam link along with details.
 | vb gnkiss `USER` `OPTIONAL: MESSAGE`| Kiss someone goodnight. A random BTTV/7TV/FFZ emote from your channel will be used if no message is provided. <img src="https://cdn.7tv.app/emote/60a1babb3c3362f9a4b8b33a/1x">
 | vb hare                             | An old command for the location of hare in Far Cry 5. <img src="https://cdn.7tv.app/emote/610725797c9d47b53ef7d244/1x">
 | vb hug `USER`                       | Give a user a hug! <img src="https://cdn.7tv.app/emote/60b3ee1eb0e6e2b3a5f9577a/1x">
@@ -95,6 +96,7 @@
 | *vb site*                           | Get a link to [my website](https://darkvypr.com) with all of my links. <img src="https://cdn.betterttv.net/emote/60de01428ed8b373e421c395/1x">
 | **vb spam `AMOUNT`**                | Spam a message x number of times. Example: "`vb spam 20 test 123`". The max is 80.
 | vb song `SONG_NAME` `OPTIONAL: INDEX`| Search song details. Basic example: "`vb song off the grid`" or "`vb music late at night`". If the result you get isn't what you are looking for, append index:`NUMBER_HERE` to go through all of the results. For example: "`vb song late at night`" returns late at night by Roddy Rich, whereas "`vb song late at night index:1`" returns Late At Night by George Benson. The songs are ordered by popularity.
+| vb steam  `GAME`                    | Search for games on Steam by name. Will show all details on a game if available.
 | vb subage // vb sa `USER` `CHANNEL` | Check a user's subscription status to a channel.
 | vb text  `to|from:{method}` `{text}`| Manipulate text. Use `"to:base64, b64, binary, bin, weeb, space, condensed, upper, lower, capitalize, capital, shuffle"` or `"from:base64, b64, binary, bin"`. Example: "`vb text from:binary 1101000 1100101 1101100 1101100 1101111 100000 1110111 1101111 1110010 1101100 1100100 `" or "`vb text to:base64 hello world`".
 | vb time `@USER_OR_LOCATION`         | This will get the time for the location you previously set. If you would like to check someone else's time, you can use "`vb time @USER`". Make sure to **INCLUDE THE @ SIGN!!!!!** Example: "`vb time @VisioisiV`". If you would like to check the time for a specific location, you can use "`vb time LOCATION_NAME`". Example: "`vb time paris france`". Leave this blank to check your location.
