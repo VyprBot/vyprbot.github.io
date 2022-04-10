@@ -66,6 +66,7 @@
 | vb emotes `USER`                    | List all of the emotes, badges and assets for the specified channel.
 | vb farmer                           | Get a link to the Twitch Channel Points Farmer V2. Also can be used to farm gift subs. (This may or may not work anymore, Twitch may have broken this one <img src="https://cdn.frankerfacez.com/emoticon/425196/4" width="28" height="22">)
 | vb ffzemote `EMOTE`                 | Get a list of emotes on FFZ with a specific keyword. <img src="https://static-cdn.jtvnw.net/emoticons/v2/65/default/dark/1.0">
+| vb filesay `FILE_LNK            | A tutorial on how to set up the follow button for [Chatterino Homies](https://github.com/itzAlex/chatterino7/releases).
 | vb followage // vb fa `USER` `CHANNEL`| Check a user's followage to a channel.
 | vb followbutton                     | A tutorial on how to set up the follow button for [Chatterino Homies](https://github.com/itzAlex/chatterino7/releases).
 | vb followers `USER`                 | Get a list of who is following a specific user on Twitch.
