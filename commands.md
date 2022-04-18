@@ -59,7 +59,7 @@
 | vb commands                         | Brings you here. <img src="https://cdn.7tv.app/emote/60af60df84a2b8e6554d9af7/4x" width="28" height="28">
 | vb coin                             | Flip a coin. Returns either: `Heads! (Yes)` or `Tails! (No)`.
 | vb code `COMMAND`                   | View the source code for any command. Example: "`vb code weather`".
-| ~~vb covid `@USER_OR_LOCATION`~~ **THIS COMMAND IS NOT OPERATIONAL RIGHT NOW**        | This will get the COVID stats for the location you previously set. If you would like to check someone else's COVID stats, you can use "`vb covid @USER`". Make sure to **INCLUDE THE @ SIGN!!!!!** Example: "`vb covid @VisioisiV`". If you would like to check the COVID stats for a specific location, you can use "`vb covid LOCATION_NAME`". Example: "`vb covid paris france`". Leave this blank to check your location.
+| ~~vb covid `@USER_OR_LOCATION`~~    | **THIS COMMAND IS NOT OPERATIONAL RIGHT NOW** ~~This will get the COVID stats for the location you previously set. If you would like to check someone else's COVID stats, you can use "`vb covid @USER`". Make sure to **INCLUDE THE @ SIGN!!!!!** Example: "`vb covid @VisioisiV`". If you would like to check the COVID stats for a specific location, you can use "`vb covid LOCATION_NAME`". Example: "`vb covid paris france`". Leave this blank to check your location.~~
 | vb define `WORD_OR_PHRASE`          | Get the meaning of a word or sentence. Searches Wikipedia, The English Dictionary (Words API) and Urban Dictionary. Indexes are supported.
 | vb domain `DOMAIN`                  | Lookup info on a specific domain using the WHOIS database. Please only use this command if you know what it's for, I only get 500 API calls a month.
 | vb emotes `USER`                    | List all of the emotes, badges and assets for the specified channel.
@@ -79,7 +79,7 @@
 | vb info `OPTIONAL: USER OR UID`     | Look up and get the details of any user on Twitch. Leave blank for your account's details. Use id:true to lookup UID's.
 | vb kanye                            | Get a random quote from Mr. West. <img src="https://cdn.7tv.app/emote/6116f94cd281ac4021e0a4ac/1x">
 | vb kiss `USER` `OPTIONAL: MESSAGE`  | Kiss a user. A random BTTV/7TV/FFZ emote from your channel will be used if no message is provided. <img src="https://cdn.7tv.app/emote/60fa7cfb4c5d42dbbc6d9eb1/1x">
-| vb logs `USER` `CHANNEL`            | Get the logs of a user on any channel that is supported by [Leppunen's Logs](https://logs.ivr.fi/), [Paauulli's Logs](https://logs.apulxd.ga/), [Harambe Logs](https://harambelogs.pl/), [magichack's Logs](https://logs.magichack.xyz/), or [vtlogs](https://vtlogs.moe/). This command will pick the best ouf of the 5.
+| vb logs `USER` `CHANNEL`            | Get the logs of a user on any channel that is supported by [Leppunen's Logs](https://logs.ivr.fi/), [Paauulli's Logs](https://logs.apulxd.ga/), [Harambe Logs](https://harambelogs.pl/), [magichack's Logs](https://logs.magichack.xyz/), or [vtlogs](https://vtlogs.moe/). This command will pick the best ouf of the 5, and send the person's last message in that channel, if possible.
 | vb math `EQUATION`                  | Get the answer to a provided equation.
 | vb modlookup `USER`                 | View a rough list of people that a user mods for. (Not 100% accurate)
 | vb ocr `DIRECT_LINK_TO_IMAGE` `LANG_CODE`| Get the text out of an image. To specify a language, use lang:{lang_name}
