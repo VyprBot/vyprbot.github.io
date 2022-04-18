@@ -34,7 +34,7 @@
 
 | Permissions                         | Description   
 | ---------------------------------   | ---------------------------------------
-| vb permit `add, delete, check` `USER`           | Permit a user to use commands that can only be used by being permitted. This command can only be executed by the broadcaster of said channel, a vyprbot admin or by me globally. Example: "`vb permit add darkvypr`" would add me as a permitted user, "`vb permit delete darkvypr`" would remove me as a permitted user, and "`vb permit check darkvypr`" would check if I am permitted or not.
+| vb permit `add, delete, check` `USER`| Permit a user to use commands that can only be used by being permitted. This command can only be executed by the broadcaster of said channel, a vyprbot admin or by me globally. Example: "`vb permit add darkvypr`" would add me as a permitted user, "`vb permit delete darkvypr`" would remove me as a permitted user, and "`vb permit check darkvypr`" would check if I am permitted or not.
 
 | Command + Variables                 | Description   
 | ---------------------------------   | ---------------------------------------
@@ -44,7 +44,6 @@
 | vb 8ball `QUESTION`                 | Ask the 8ball a question. 
 | vb acctage `OPTIONAL: USER`         | Get info on when an account was made. Check a user by assing their name to the end of the command. Examples: "`vb acctage`" "`vb accountage @XenoPlopQB`".
 | vb adblock                          | Some adblockers that I had saved.
-| vb alogs `USER` `CHANNEL`           | Get the logs of a user on any channel that is supported by [Apulxd Logs](https://logs.apulxd.ga/).
 | vb ban `SINGLE_OR_MULTIPLE_USERS`   | Ban a single user, or a space separated list of users. See "vb unban" for vice-versa.
 | vb bday // vb birthday              | Get your current age, your date of birth, the time until your next bday and how old you'll be on that day. Birthdays must be set with the vb set birthday command.
 | vb bot `USER`                       | Check whether the specified user is a bot or not. Example: "`vb bot vyprbot`".
@@ -80,7 +79,7 @@
 | vb info `OPTIONAL: USER OR UID`     | Look up and get the details of any user on Twitch. Leave blank for your account's details. Use id:true to lookup UID's.
 | vb kanye                            | Get a random quote from Mr. West. <img src="https://cdn.7tv.app/emote/6116f94cd281ac4021e0a4ac/1x">
 | vb kiss `USER` `OPTIONAL: MESSAGE`  | Kiss a user. A random BTTV/7TV/FFZ emote from your channel will be used if no message is provided. <img src="https://cdn.7tv.app/emote/60fa7cfb4c5d42dbbc6d9eb1/1x">
-| vb logs `USER` `CHANNEL`            | Get the logs of a user on any channel that is supported by [Leppunen's Logs](https://logs.ivr.fi/).
+| vb logs `USER` `CHANNEL`            | Get the logs of a user on any channel that is supported by [Leppunen's Logs](https://logs.ivr.fi/), [Paauulli's Logs](https://logs.apulxd.ga/), [Harambe Logs](https://harambelogs.pl/), [magichack's Logs](https://logs.magichack.xyz/), or [vtlogs](https://vtlogs.moe/). This command will pick the best ouf of the 5.
 | vb math `EQUATION`                  | Get the answer to a provided equation.
 | vb modlookup `USER`                 | View a rough list of people that a user mods for. (Not 100% accurate)
 | vb ocr `DIRECT_LINK_TO_IMAGE` `LANG_CODE`| Get the text out of an image. To specify a language, use lang:{lang_name}
