@@ -23,6 +23,7 @@
 | vb give `USER` `NUMBER`             | Give a specific amount of nammers to another user. Example: "`vb give VisioisiV 20`".
 | vb cdr                              | Reset your nammer hunting cooldown. This costs 10 nammers, and you can use this once per 2 hours.
 | vb nammers `OPTIONAL: USER`         | Check your current balance of nammers. This supports checking users, Example: "`vb nammers VisioisiV`". Leave blank to check your own balance.
+| vb color `colour`                   | Change the username colour of of the bot. This costs 200 nammers. [Valid Colours List](https://i.darkvypr.com/colours.png)
 | vb gamble `AMOUNT`                  | Have a 50/50 shot at winning the amount of points you bet. Example: "`vb gamble 300`". This would give you 300 nammers if you win, but if you lose, you lose 300 nammers. You can also do "`vb gamble all`" to gamble all of your nammers.
 | vb shop                             | Get a list of all of the purchasable items.
 
