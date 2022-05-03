@@ -23,7 +23,7 @@
 | vb give `USER` `NUMBER`             | Give a specific amount of nammers to another user. Example: "`vb give VisioisiV 20`".
 | vb cdr                              | Reset your nammer hunting cooldown. This costs 10 nammers, and you can use this once per 2 hours.
 | vb nammers `OPTIONAL: USER`         | Check your current balance of nammers. This supports checking users, Example: "`vb nammers VisioisiV`". Leave blank to check your own balance.
-| vb color `colour`                   | Change the username colour of of the bot. This costs 200 nammers. [Valid Colours List](https://i.darkvypr.com/colours.png)
+| vb botcolor `colour`                   | Change the username colour of of the bot. This costs 200 nammers. [Valid Colours List](https://i.darkvypr.com/colours.png)
 | vb gamble `AMOUNT`                  | Have a 50/50 shot at winning the amount of points you bet. Example: "`vb gamble 300`". This would give you 300 nammers if you win, but if you lose, you lose 300 nammers. You can also do "`vb gamble all`" to gamble all of your nammers.
 | vb shop                             | Get a list of all of the purchasable items.
 
@@ -57,6 +57,7 @@
 | vb christmas                        | States the number of months, days and minutes left until Christmas. <img src="https://cdn.betterttv.net/emote/5f91c1486f583802e38974aa/3x" width="28" height="28">
 | **vb clear `AMOUNT`**               | Clear the chat x number of times. Example: "`vb clear 20`". The max is 100.
 | vb code `COMMAND`                   | View the code for any one of these commands!
+| vb color `OPTIONAL: USER`           | Gets your username colour, then sends it in chat.
 | vb commands                         | Brings you here. <img src="https://cdn.7tv.app/emote/60af60df84a2b8e6554d9af7/4x" width="28" height="28">
 | vb coin                             | Flip a coin. Returns either: `Heads! (Yes)` or `Tails! (No)`.
 | vb code `COMMAND`                   | View the source code for any command. Example: "`vb code weather`".
