@@ -6,7 +6,7 @@
 
 ---
 
-<h3 align="center"> <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/artist-palette_1f3a8.png" width="22" height="22"> Username Colour Change | vb colour <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/313/paintbrush_1f58c-fe0f.png" width="22" height="22"></h3>
+<h3 align="center"> <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/artist-palette_1f3a8.png" width="22" height="22"> Username Colour Change | vb botcolour <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/313/paintbrush_1f58c-fe0f.png" width="22" height="22"></h3>
 
 <p align="center">--- Change the username colour of of the bot. This costs 200 nammers. <a href="https://i.darkvypr.com/colours.png">Valid Colours List</a> ---</p> 
 
