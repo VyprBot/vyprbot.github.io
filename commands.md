@@ -14,7 +14,7 @@
 
 | Set Command                         | Description   
 | ---------------------------------   | ---------------------------------------
-| vb set `birthday, twitter, location, prefix`| Set various values to use commands. Options: Location, Prefix, Twitter account or Birthday. Examples: "vb set prefix %" "vb set twitter darkvyprr", "vb set birthday 8/14/2005 (mm/dd/yyyy)" or "vb set location lasalle ontario ({city} {state, province or country})".
+| vb set `birthday, twitter, vin, location, prefix`| Set various values to use commands. Options: Location, VIN, Prefix, Twitter account or Birthday. Examples: "vb set prefix %" "vb set twitter darkvyprr", "vb set vin 2GNAXXEVXM6144737", "vb set birthday 8/14/2005 (mm/dd/yyyy)" or "vb set location lasalle ontario ({city} {state, province or country})".
 
 | Loyalty Commands                    | Description   
 | ---------------------------------   | ---------------------------------------
