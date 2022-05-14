@@ -94,6 +94,7 @@
 | vb rpfp `OPTIONAL: user:true`       | Get a random user's profile picture from chat. Use the flag: "user:true" to include the user that the profile picture is from.
 | vb say                              | Repeat what the user sent. Example Input: `DarkVypr: vb say hello my name is darkvypr` Example Response: `VyprBot: 👥 hello my name is darkvypr`
 | vb shiba // vb shibe                | Get a random picture of a Shibe.
+| vb ship  `OPTIONAL: USER AND/OR USER2` // vb love| Ship 2 people together. If left completely blank, it will use a random chatter from that chat.
 | vb si // vb stream                  | Get the stream info for any live/offline user. If offline, the last broadcast and title will be sent.
 | *vb site*                           | Get a link to [my website](https://darkvypr.com) with all of my links. <img src="https://cdn.betterttv.net/emote/60de01428ed8b373e421c395/1x">
 | **vb spam `AMOUNT`**                | Spam a message x number of times. Example: "`vb spam 20 test 123`". The max is 80.
